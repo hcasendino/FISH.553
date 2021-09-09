@@ -1,0 +1,142 @@
+---
+title: "Homework 5 (FISH 553)"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Question 1
+
+### A) 
+
+I'll read in each dataset using base R functions, as they are the most straightforward, and use the col.names call within the read.table() function to rename each column. Using the tidyverse rename() function within a single line of code would result in a longer line of code than the result of base R functions. 
+
+```{r Read in data with colnames}
+colNames <- c("Year","spawners","recruits", "catch", "fishMortality")
+mack.ices <- read.table("MACKICES.txt", col.names = colNames)
+mack.black <- read.table("MACKBLACK.txt", col.names = colNames)
+mack.nafo <- read.table("MACKNAFO.txt", col.names = colNames)
+```
+
+### B) 
+
+I will first download the tidyverse package. Then I will use the inner_join() function, which will only keep "Year" observations found in both the mack.nafo and mack.black datasets. 
+
+```{r new dataframe}
+library(tidyverse)
+mack.partial <- inner_join(mack.nafo, mack.black, by="Year", suffix = c(".nafo", ".black"))
+```
+
+### C) 
+
+I repeat the steps in part b.  
+
+```{r new mack dataframe}
+mack <- inner_join(mack.ices, mack.partial, by="Year")
+```
+
+### D) 
+
+I didn't include the suffix argument in the inner_join() function because I didn't want to rewrite the column names of mack.partial. Instead, I use tidyverse's rename() function to put the ".ices" suffix on all the mack.ices columns.
+
+```{r rename new dataframe}
+mack <- mack %>% rename(spawners.ices=spawners) %>% rename(recruits.ices=recruits) %>% rename(catch.ices=catch) %>% rename(fishMortality.ices=fishMortality) 
+```
+
+### E) 
+
+I used ggplot to recreate this plot because it has a cleaner output. I had to do some extra subsetting to plot multiple groups of data (like matplot would achieve). While this is good ggplot practice, I would prefer matplot for layered data. 
+
+```{r ggplot2 plot}
+subset<- mack %>% select(Year, starts_with("spawners")) 
+
+subset2 <- subset %>% gather(key= Spawners, value=Number, 2:4) %>% slice(9:59) 
+
+subset2$Number <- as.numeric(subset2$Number)
+subset2 <- subset2 %>% arrange(Number)
+
+ggplot(data=subset2) + 
+  geom_line(aes(Year, Number, group=Spawners, color=Spawners), lty=2) + 
+  labs(x="Years", y= "Spawner Biomass (thousands of tons)", title = "Atlantic mackarel") + 
+  coord_cartesian(xlim =c(1964, 1990), ylim=c(0,3500)) + theme_classic() + 
+  theme(legend.position = c(0.12, 0.8), legend.title = element_blank()) +
+  scale_color_discrete(labels=c("Black Sea","NAFO", "ICES")) 
+```
+I was not sure how to the line change colors and axis limits. 
+
+# Question 2
+
+### A) 
+
+I used the following code chunk (from homework 3) to create a data frame named temperature which has 2 columns: the dates Jan 1 2010 through Jun 30 2010 and a randomly generated temperature for each day. I thought using the tidyverse and Hmisc packages would make this easier because it is easier to add a column in tidyverse, and easier to identify the number of days in a month using Hmisc. 
+
+```{r data frame of dates and temps}
+library(Hmisc)
+
+temperature<- data.frame(date=seq(from=as.Date("2010/1/1"), to=as.Date("2010/6/30"), by=1))
+
+month_lengths<- c(monthDays("2010-01-01"), monthDays("2010-02-01"),monthDays("2010-03-01"),monthDays("2010-04-01"),monthDays("2010-05-01"),monthDays("2010-06-01"))
+means<- c(40 ,42 ,51 ,55 ,58 ,62)
+
+temp <- rep(NA, length.out=181)
+for(i in 1:length(means)){
+   a <- rnorm(month_lengths[i], mean = means[i], sd = 5)
+   if(i==1){temp[1:31]<- a}
+   if(i==2){temp[32:59]<- a}
+   if(i==3){temp[60:90]<- a}
+   if(i==4){temp[91:120]<- a}
+   if(i==5){temp[121:151]<- a}
+   if(i==6){temp[152:181]<- a}
+} 
+
+temperature <- temperature %>% mutate(Temp = temp) 
+temperature$Temp <- round(temperature$Temp)
+```
+
+### B) 
+
+I used the group_by and summarise_ functions of tidyverse. I think it's as easy as using tapply, I just feel more comfortable with the tidyverse functions. 
+
+```{r calculating monthly means}
+temperature %>% mutate(month = format(date, "%m")) %>% group_by(month) %>% summarise(meanTemp = mean(Temp))
+
+```
+
+### C) 
+
+To figure out the days in which duplicate temperatures exist, I use base R functions. To my knowledge, tidyverse does not have an equivalent function besides distinct() which is to remove duplicate rows. 
+
+```{r duplicate data}
+temperature$date[duplicated(temperature$Temp)==TRUE]
+```
+
+### D) 
+
+I also decided to use base R for this question. While one could create separate data frames for the conditions and wind speed, then use one of the join() functions to unite them, this way is more parsimonious. Furthermore, tidyverse could be used to isolate the values with negative signs and change them to zero, but base R is more parsimonious. 
+
+```{r new dataframe "observations"}
+observations<- data.frame(date=seq(from=as.Date("2010/1/1"), to=as.Date("2010/7/31"),by=2), 
+                          conditions=sample(x=c("sunny", "cloudy", "partly cloudy"), 
+                                            size=length(seq(from=as.Date("2010/1/1"), to=as.Date("2010/7/31"),by=2)), replace=T),
+                          "wind speed"= rnorm(n=length(seq(from=as.Date("2010/1/1"), to=as.Date("2010/7/31"),by=2)), mean=5, sd=3))
+
+observations[observations$wind.speed < 0,3] <- 0
+```
+
+### E) 
+
+I used the join() functions to unite the two data frames. These allow specification in which rows and columns to keep. In this case, inner_join allowed me to only keep the date observations that matched. 
+
+``` {r merge both dataframes}
+weather <- inner_join(temperature, observations, by="date")
+```
+
+### F) 
+I used a pipeline with group_by and summarise to get summary statistics of the weather data, as opposed to using the apply family. This code is more parsimonious than that of Homework 3. 
+
+``` {r identifying min and max from conditions}
+weather %>% group_by(conditions) %>% summarise(minim = min(Temp), maxim = max(Temp))
+```
+

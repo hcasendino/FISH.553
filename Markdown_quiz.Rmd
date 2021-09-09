@@ -1,0 +1,51 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.pos = 'h')
+```
+
+# 1) Who am I?
+
+Hello. My name is Helen Casendino. I am at the start of my third year of undergraduate education in the School of Aquatic and Fisheries Sciences. I grew up in Orinda, California, and came up to Seattle excited about experiencing a *four-season year*. Now that I have been here a few years, I may return to the sun — but we'll see. Outside of my academics, I enjoy art (painting) and dance. I'm lucky enough that I have been able to enroll in an in-person dance class this quarter. I'm looking forward to the end of the pandemic so that all the arts can be experienced in person again. 
+
+# 2) What do I study?
+
+The two research projects I am a part of at the moment relate to marine invertebrate diseases. Individually, I am looking into sea star wasting disease in subtidal zones of the Puget Sound. I also assist a postdoc in the Wood Lab studying polydora spp. infection in Pacific oysters.  
+
+### Keywords
+
+* marine invertebrate diseases 
+* climate change impacts 
+* trophic cascade
+
+# 3) What do I want from this course?
+
+1. How to use Rmarkdown 
+2. How to do model selection 
+3. How to create mixed effects models 
+
+# 4) Plot air quality data
+
+```{r airquality, fig.height = 4, fig.width = 5, fig.align = "center", fig.cap="Air Quality vs. Ozone", echo = FALSE}
+boxplot(airquality$Ozone~airquality$Month, xlab="Month", ylab="Ozone")
+```
+
+
+\vspace{0.25in}
+
+# 5) Say it with an equation
+
+
+$$
+y_{1,2} = \alpha + \beta_{1} x_{1} + \beta_{2} x_{2} + e_{1,2} \\
+$$
+$y_{1,2}$ is the dependent variable.  
+$\beta_{1}$ is the coefficient for $x_{1}$, which is the first dependent variable. 
+$\beta_{2}$ is the coefficient for $x_{2}$, which is the second dependent variable. 
+$\alpha$ and $e_{1,2}$ are additional parameters.  
+
+

@@ -1,0 +1,591 @@
+SpeciesCode,Scientific,Common
+1,Eptatretus deani,Black hagfish
+2,Eptatretus stoutii,Pacific hagfish
+3,Myxine circifrons,Whiteface hagfish
+21,Lampetra tridentata,Pacific lamprey
+22,Lampetra ayresii,Western river lamprey
+102,Hexanchus griseus,Sixgill shark
+103,Notorynchus maculatus,Sevengill shark
+105,Chlamydoselachus anguineus,Frilled shark
+106,Heterodontus francisci,Horn shark
+111,Alopias vulpinus,Common thresher
+112,Carcharodon carcharias,White shark
+113,Cetorhinus maximus,Basking shark
+114,Isurus oxyrinchus,Bonito shark
+115,Lamna ditropis,Salmon shark
+116,Alopias superciliosus,Bigeye thresher
+118,Rhincodon typus,Whale shark
+121,Apristurus brunneus,Brown cat shark
+122,Cephaloscyllium ventriosum,Swell shark
+123,Parmaturus xaniurus,Filetail cat shark
+126,Carcharhinus longimanus,Pelagic whitetipped shark
+127,Carcharhinus remotus,Narrowtooth shark
+128,Apristurus kampae,Longnose cat shark
+131,Carcharhinus leucas,Bull shark
+132,Carcharhinus obscurus,Dusky shark
+133,Galeocerdo cuvier,Tiger shark
+134,Galeorhinus zyopterus,Soupfin shark
+135,Mustelus californicus,Gray smoothhound
+136,Mustelus lunulatus,Sicklefin smoothhound
+137,Prionace glauca,Blue shark
+138,Rhizoprionodon longurio,Pacific sharpnose shark
+139,Mustelus henlei,Brown smoothhound
+140,Triakis semifasciata,Leopard shark
+145,Odontaspis ferox,Ragged  tooth shark
+151,Sphyrna lewini,Scalloped hammerhead
+152,Sphyrna tiburo,Bonnethead
+153,Sphyrna zygaena,Smooth hammerhead
+161,Echinorhinus cookei,Prickly shark
+162,Somniosus pacificus,Pacific sleeper shark
+163,Squalus acanthias,Spiny dogfish
+164,Euprotomicrus bispinatus,Pygmy shark
+171,Squatina californica,Pacific angel shark
+199,Unidentified Shark,Unidentified Shark
+211,Platyrhinoidis triseriata,Thornback
+212,Rhinobatos productus,Shovelnose guitarfish
+213,Zapteryx exasperata,Banded guitarfish
+218,Torpedo californica,Pacific electric ray
+220,Unidentified Skate,Unidentified Skate
+221,Raja kincaidii,Sandpaper skate
+222,Raja binoculata,Big skate
+223,Raja inornata,California skate
+224,Raja rhina,Longnose skate
+225,Raja stellulata,Starry skate
+226,Bathyraja spinosissima,White skate
+227,Raja abyssicola,Deepsea skate
+228,Raja trachura,Black skate
+231,Dasyatis dipterura,Diamond stingray
+232,Dasyatis violacea,Pelagic stingray
+233,Gymnura marmorata,California butterfly ray
+234,Urolophus halleri,Round stingray
+240,Myliobatis californica,Bat ray
+251,Manta hamiltoni,Pacific manta
+252,Mobula japanica,Spinetail mobula
+253,Mobula lucasana,Smoothtail mobula
+300,Hydrolagus colliei,Ratfish
+1001,Alosa sapidissima,American shad
+1002,Clupea harengus,Pacific herring
+1003,Etrumeus teres,Round herring
+1004,Harengula thrissina,Flatiron herring
+1005,Opisthonema medirastre,Middling thread herring
+1006,Sardinops sagax caeruleus,Pacific sardine
+1007,Dorosoma petenense,Threadfin shad
+1101,Oncorhynchus gorbuscha,Pink salmon
+1102,Oncorhynchus keta,Chum salmon
+1103,Oncorhynchus kisutch,Silver salmon
+1104,Oncorhynchus nerka,Sockeye salmon
+1105,Oncorhynchus tshawytscha,King salmon
+1106,Salmo clarkii,Cutthroat trout
+1107,Salmo gairdnerii,Rainbow trout
+1201,Allosmerus elongatus,Whitebait
+1203,Hypomesus pretiosus,Surf smelt
+1204,Spirinchus thaleichthys,Longfin smelt
+1205,Spirinchus starksi,Night smelt
+1207,Thaleichthys pacificus,Eulachon
+1208,Hypomesus transpacificus,Delta smelt
+1225,Antennarius avalonis,Roughjaw
+1235,Zalieutes elater,Spotted batfish
+1245,Cryptopsaras couesii,Warted seadevil
+1255,Allocyttus verrucosus,Oxeye oreo
+1265,Zenopsis nebulosa,Mirror dory
+1270,Poromitra crassiceps,Crested bigscale
+1271,Scopelogadus mizolepis,Twospine bigscale
+1275,Lophotus cristatus,Highbrow crestfish
+1280,Regalecus glesne,Oarfish
+1290,Euleptorhamphus longirostris,Ribbon halfbeak
+1291,Hemiramphus saltator,Longfin halfbeak
+1292,Hyporhamphus rosae,California halfbeak
+1293,Hyporhamphus unifasciatus,Silverstripe halfbeak
+1300,Theragra chalcogramma,Walleye pollock
+1301,Gadus macrocephalus,Pacific cod
+1302,Microgadus proximus,Pacific tomcod
+1303,Merluccius productus,Pacific hake
+1321,Nezumia stelgidolepis,California rattail
+1325,Coryphaenoides acrolepis,Pacific rattail
+1350,Anotopterus pharao,Daggertooth
+1370,Lestidium ringens,Slender barracudina
+1380,Benthalbella dentata,Northern pearleye
+1390,Cyclothone acclinidens,Benttooth bristlemouth
+1391,Danaphos oculatus,Bigeye lightfish
+1401,Diaphus theta,California headlightfish
+1402,Protomyctophum crockeri,California flashlightfish
+1403,Stenobrachius leucopsarus,Northern lampfish
+1404,Tarletonbeania crenularis,Blue laternfish
+1405,Symbolophorus californiensis,California laternfish
+1406,Triphoturus mexicanus,Mexican lampfish
+1407,Lampanyctus ritteri,Broadfin lampfish
+1451,Argyropelecus sladeni,Silvery hatchetfish
+1452,Sternoptyx spp.,Dollar hatchetfishes
+1453,Argyropelecus affinis,Slender hatchetfish
+1454,Argyropelecus hemigymnus,Spurred hatchetfish
+1455,Argyropelecus lychnus,Silver hatchetfish
+1460,Tactostoma macropus,Longfin dragonfish
+1461,Bathophilus flemingi,Highfin dragonfish
+1470,Macropinna microstoma,Pacific barreleye
+1480,Chauliodus macouni,Pacific viperfish
+1501,Acipenser medirostris,Green sturgeon
+1502,Acipenser transmontanus,White sturgeon
+1506,Elops affinis,Machete
+1507,Albula vulpes,Bonefish
+1511,Anchoa compressa,Deepbody anchovy
+1512,Anchoa delicatissima,Slough anchovy
+1513,Cetengraulis mysticetus,Anchoveta
+1514,Engraulis mordax,Northern anchovy
+1515,Anchoviella miarcha,Slim anchovy
+1521,Argentina sialis,Pacific argentine
+1525,Synodus lucioceps,California lizardfish
+1530,Alepisaurus ferox,Longnose lancetfish
+1531,Myrophis vafer,Pacific worm eel
+1532,Ophichthus zophochir,Yellow snake eel
+1533,Ophichthus triserialis,Spotted snake eel
+1535,Gymnothorax mordax,California moray
+1536,Gnathophis catalinensis,Catalina conger
+1540,Cololabis saira,Pacific saury
+1545,Strongylura exilis,California needlefish
+1551,Cypselurus californicus,California flyingfish
+1552,Fodiator acutus,Sharpchin flyingfish
+1553,Hirundichthys rondeletii,Blackwing flyingfish
+1554,Cypselurus heterurus,Blotchwing flyingfish
+1560,Fundulus parvipinnis,California killifish
+1565,Gasterosteus aculeatus,Threespine stickleback
+1567,Macrorhamphosus gracilis,Slender snipefish
+1570,Aulorhynchus flavidus,Tubesnout
+1575,Lampris regius,Opah
+1581,Syngnathus californiensis,Kelp pipefish
+1582,Syngnathus leptorhynchus,Bay pipefish
+1583,Syngnathus arctus,Snubnose pipefish
+1584,Syngnathus auliscus,Barred pipefish
+1588,Hippocampus ingens,Pacific seahorse
+1591,Liparis fucensis,Slipskin snailfish
+1592,Careproctus melanurus,Blacktail snailfish
+1593,Liparis pulchellus,Showy snailfish
+1594,Liparis rutteri,Ringtail snailfish
+1595,Liparis florae,Tidepool snailfish
+1596,Liparis mucosus,Slimy snailfish
+1597,Paraliparis deani,Prickly snailfish
+1610,Lycodes diapterus,Black eelpout
+1611,Aprodon cortezianus,Bigfin eelpout
+1612,Lycodopsis pacifica,Blackbelly eelpout
+1613,Lyconema barbatum,Bearded eelpout
+1614,Embryx crotalina,Flatcheek eelpout
+1615,Melanostigma pammelas,Midwater eelpout
+1616,Bothrocara brunneum,Twoline eelpout
+1617,Bothrocara molle,Soft eelpout
+1618,Lycodapus fierasfer,Blackmouth eelpout
+1619,Lycodapus mandibularis,Pallid eelpout
+1621,Chilara taylori,Spotted cusk eel
+1622,Otophidium scrippsi,Basketweave cusk eel
+1631,Leuroglossus stilbius,California smoothtongue
+1632,Bathylagus wesethi,Snubnose blacksmelt
+1633,Bathylagus ochotensis,Popeye blacksmelt
+1634,Bathylagus milleri,Robust blacksmelt
+1635,Bathylagus pacificus,Pacific blacksmelt
+1636,Icosteus aenigmaticus,Ragfish
+1641,Brosmophycis marginata,Red brotula
+1642,Oligopus diagrammus,Purple brotula
+1651,Desmodema polysticta,Polkadot ribbonfish
+1652,Trachipterus altivelis,King of the salmon
+1653,Zu cristatus,Scalloped ribbonfish
+1654,Trachipterus fukuzakii,Tapertail ribbonfish
+1675,Bagre panamensis,Chihuil
+1701,Alepocephalus tenebrosus,California slickhead
+1750,Nemichthys scolopaceus,Slender snipe eel
+1800,Gobiesox papillifer,Bearded clingfish
+1801,Gobiesox rhessodon,California clingfish
+1802,Gobiesox maeandricus,Northern clingfish
+1803,Gobiesox eugrammus,Lined clingfish
+1804,Rimicola eigenmanni,Slender clingfish
+1805,Rimicola muscarum,Kelp clingfish
+1806,Rimicola dimorpha,Southern clingfish
+1825,Bothragonus swanii,Rockhead
+1826,Pallasina barbata,Tubenose poacher
+1827,Agonomalus sp.,Kelp poacher
+1828,Occella verrucosa,Warty poacher
+1829,Stellerina xyosterna,Pricklebreast poacher
+1830,Agonus acipenserinus,Sturgeon poacher
+1832,Agonopsis emmelane,Northern spearnose
+1833,Agonopsis sterletus,Southern spearnose
+1834,Odontopyxis trispinosa,Pygmy poacher
+1835,Bathyagonus nigripinnis,Blackfin starnose
+1836,Asterotheca infraspinata,Spinycheek starnose
+1837,Asterotheca pentacantha,Bigeye starnose
+1838,Xeneretmus ritteri,Flagfin poacher
+1839,Xeneretmus triacanthus,Bluespotted poacher
+1840,Xeneretmus latifrons,Blackedge poacher
+1841,Xeneretmus leiops,Smootheye poacher
+2001,Epinephelus analogus,Spotted cabrilla
+2002,Mycteroperca jordani,Gulf grouper
+2003,Mycteroperca xenarcha,Broomtail grouper
+2004,Paralabrax clathratus,Kelp bass
+2005,Paralabrax maculatofasciatus,Spotted sand bass
+2006,Paralabrax nebulifer,Barred sand bass
+2007,Roccus saxatilis,Striped bass
+2008,Stereolepis gigas,Giant sea bass
+2009,Epinephelus niveatus,Snowy grouper
+2010,Hemanthias peruanus,Splittail bass
+2015,Mycteroperca prionura,Broomtail grouper
+2016,Mycteroperca rosacea,Leopard grouper
+2025,Epinephelus dermatolepis,Leather bass
+2101,Amphistichus argenteus,Barred surfperch
+2102,Amphistichus koelzi,Calico surfperch
+2103,Amphistichus rhodoterus,Redtail surfperch
+2104,Brachyistius frenatus,Kelp surfperch
+2105,Cymatogaster aggregata,Shiner surfperch
+2106,Cymatogaster gracilis,Island surfperch
+2107,Embiotoca jacksoni,Black surfperch
+2108,Embiotoca lateralis,Striped surfperch
+2109,Hyperprosopon anale,Spotfin surfperch
+2110,Hyperprosopon argenteum,Walleye surfperch
+2111,Hyperprosopon ellipticum,Silver surfperch
+2112,Hypsurus caryi,Rainbow surfperch
+2113,Micrometrus aurora,Reef surfperch
+2114,Micrometrus minimus,Dwarf surfperch
+2115,Phanerodon atripes,Sharpnose surfperch
+2116,Phanerodon furcatus,White surfperch
+2117,Rhacochilus toxotes,Rubberlip surfperch
+2118,Damalichthys vacca,Pile surfperch
+2119,Zalembius rosaceus,NA
+2120,Surfperch, unidentified,Unidentified surfperch
+2121,Surfperch, unidentified juvenile,Unidentified juvenile surfperch
+2122,Hypsurus caryi,Rainbow juvenile surfperch
+2123,Embiotoca lateralis,Striped juvenile surfperch
+2124,Embiotoca jacksoni,Black juvenile surfperch
+2202,Auxis rochei,Bullet mackerel
+2203,Auxis thazard,Frigate mackerel
+2204,Euthynnus lineatus,Black skipjack
+2205,Euthynnus affinis,Wavyback skipjack
+2206,Euthynnus pelamis,Skipjack
+2207,Thunnus albacares,Yellowfin tuna
+2208,Thunnus obesus,Bigeye tuna
+2209,Scomber japonicus,Chub mackerel
+2210,Sarda chiliensis,Pacific bonito
+2212,Scomberomorus concolor,Monterey spanish mackerel
+2213,Scomberomorus sierra,Sierra
+2214,Thunnus alalunga,Albacore
+2215,Thunnus thynnus,Bluefin tuna
+2216,Allothunnus fallai,Slender tuna
+2217,Lepidocybium flavobrunneum,Escolar
+2220,Acanthocybium solanderi,Wahoo
+2275,Lutjanus peru,Snapper
+2301,Sebastes aleutianus,Rougheye rockfish
+2302,Sebastes alutus,Pacific ocean perch
+2303,Sebastes atrovirens,Kelp rockfish
+2304,Sebastes auriculatus,Brown rockfish
+2305,Sebastes aurora,Aurora rockfish
+2306,Sebastes brevispinis,Silvergray rockfish
+2307,Sebastes carnatus,Gopher rockfish
+2308,Sebastes caurinus,Copper rockfish
+2309,Sebastes chlorostictus,Greenspotted rockfish
+2310,Sebastes chrysomelas,Black-and-yellow rockfish
+2311,Sebastes constellatus,Starry rockfish
+2312,Sebastes crameri,Darkblotched rockfish
+2313,Sebastes dallii,Calico rockfish
+2314,Sebastes diploproa,Splitnose rockfish
+2315,Sebastes elongatus,Greenstriped rockfish
+2316,Sebastes entomelas,Widow rockfish
+2317,Sebastes eos,Pink rockfish
+2318,Sebastes flavidus,Yellowtail rockfish
+2319,Sebastes gilli,Bronzespotted rockfish
+2320,Sebastes goodei,Chilipepper
+2321,Sebastes helvomaculatus,Rosethorn rockfish
+2322,Sebastes hopkinsi,Squarespot rockfish
+2323,Sebastes jordani,Shortbelly rockfish
+2324,Sebastes levis,Cowcod
+2325,Sebastes macdonaldi,Mexican rockfish
+2326,Sebastes maliger,Quillback rockfish
+2327,Sebastes melanops,Black rockfish
+2328,Sebastes melanostomus,Blackgill rockfish
+2329,Sebastes miniatus,Vermilion rockfish
+2330,Sebastes mystinus,Blue rockfish
+2331,Sebastes nebulosus,China rockfish
+2332,Sebastes nigrocinctus,Tiger rockfish
+2333,Sebastes ovalis,Speckled rockfish
+2334,Sebastes paucispinis,Bocaccio
+2335,Sebastes pinniger,Canary rockfish
+2336,Sebastes proriger,Redstripe rockfish
+2337,Sebastes rastrelliger,Grass rockfish
+2338,Sebastes ensifer,Swordspine rockfish
+2339,Sebastes rosaceus,Rosy rockfish
+2340,Sebastes ruberrimus,Yelloweye rockfish
+2341,Sebastes rubrivinctus,Flag rockfish
+2342,Sebastes saxicola,Stripetail rockfish
+2343,Sebastes semicinctus,Halfbanded rockfish
+2344,Sebastes serranoides,Olive rockfish
+2345,Sebastes serriceps,Treefish
+2346,Sebastes umbrosus,Honeycomb rockfish
+2347,Sebastes vexillaris,Whitebelly rockfish
+2348,Sebastes wilsoni,Pygmy rockfish
+2349,Sebastes zacentrus,Sharpchin rockfish
+2351,Sebastolobus alascanus,Shortspine thornyhead
+2352,Sebastolobus altivelis,Longspine thornyhead
+2353,Scorpaena guttata,Spotted scorpionfish or sculpin
+2354,Scorpaenodes xyris,Rainbow scorpionfish
+2360,Sebastes juvenile,Juvenile rockfish
+2361,Sebastes simulator,Pinkrose rockfish
+2362,Sebastes lentiginosus,Freckled rockfish
+2363,Sebastes rosenblatti,Greenblotched rockfish
+2364,Sebastes babcocki,Redbanded rockfish
+2365,Sebastes phillipsi,Chameleon rockfish
+2366,Sebastes rufinanus,Dwarf red rockfish
+2367,Sebastes borealis,Shortraker rockfish
+2368,Sebastes rufus,Bank rockfish
+2369,Sebastes reedi,Yellowmouth rockfish
+2390,Sebastes mystinus juvenile,Juvenile blue rockfish
+2391,Sebastes serranoides,Olive juvenile rockfish
+2392,Sebastes carnatus,Gopher juvenile rockfish
+2393,Sebastes miniatus,Vermilion juvenile rockfish
+2394,Sebastes atrovirens,Kelp juvenile rockfish
+2395,Sebastes caurinus,Juvenile rockfish
+2396,Sebastes carnatus  chrysomelas juv.,Bl.-and-yel., gopher juvenile
+2398,Sebastes spp.,Unidentified rockfish
+2399,Sebastes rufus,Red widow rockfish
+2400,Artedius sp.,Sculpin
+2401,Artedius lateralis,Smoothhead sculpin
+2402,Ascelichthys rhodorus,Rosylip sculpin
+2403,Clinocottus analis,Wooly sculpin
+2404,Enophrys bison,Buffalo sculpin
+2405,Hemilepidotus hemilepidotus,Red irish lord
+2406,Hemilepidotus spinosus,Browh irish lord
+2407,Leptocottus armatus,Staghorn sculpin
+2408,Oligocottus rubellio,Rosy sculpin
+2409,Oligocottus snyderi,Fluffy sculpin
+2410,Scorpaenichthys marmoratus,Cabezon
+2411,Radulinus asprellus,Slim sculpin
+2412,Icelinus filamentosus,Threadfin sculpin
+2413,Chitonotus pugetensis,Roughback sculpin
+2414,Artedius fenestralis,Padded sculpin
+2415,Rhamphocottus richardsonii,Grunt sculpin
+2416,Synchirus gilli,Manacled sculpin
+2417,Jordania zonope,Longfin sculpin
+2418,Paricelinus hopliticus,Thornback sculpin
+2419,Nautichthys oculofasciatus,Sailfin sculpin
+2420,Blepsias cirrhosus,Silverspotted sculpin
+2421,Enophrys taurina,Bull sculpin
+2422,Icelinus quadriseriatus,Yellowchin sculpin
+2423,Icelinus fimbriatus,Fringed sculpin
+2424,Icelinus oculatus,Frogmouth
+2425,Icelinus burchami,Dusky sculpin
+2426,Icelinus tenuis,Spotfin sculpin
+2427,Icelinus cavifrons,Pithead sculpin
+2428,Orthonopias triacis,Snubnose sculpin
+2429,Artedius corallinus,Coralline sculpin
+2430,Artedius notospilotus,Bonyhead sculpin
+2431,Artedius creaseri,Roughcheek sculpin
+2432,Artedius harringtoni,Scalyhead sculpin
+2433,Radulinus vinculus,Smoothgum sculpin
+2434,Radulinus boleoides,Darter sculpin
+2435,Zesticelus profundorum,Flabby sculpin
+2436,Oligocottus rimensis,Saddleback sculpin
+2437,Oligocottus maculosus,Tidepool sculpin
+2438,Leiocottus hirundo,Lavender sculpin
+2439,Clinocottus acuticeps,Sharpnose sculpin
+2440,Clinocottus embryum,Calico sculpin
+2441,Clinocottus globiceps,Mosshead sculpin
+2442,Clinocottus recalvus,Bald sculpin
+2443,Oligocottus snyderi,Fluffy sculpin
+2445,Unidentified cottidae,Sculpin
+2495,Polydactylus opercularis,Yellow bobo
+2496,Polydactylus approximans,Blue bobo
+2501,Bairdiella icistia,Bairdiella
+2502,Cheilotrema saturnum,Black croaker
+2504,Cynoscion nobilis,White seabass
+2506,Cynoscion parvipinnis,Shortfin corvina
+2508,Cynoscion xanthulus,Orangemouth corvina
+2509,Genyonemus lineatus,White croaker
+2510,Menticirrhus undulatus,California corbina
+2511,Roncador stearnsii,Spotfin croaker
+2512,Seriphus politus,Queenfish
+2513,Umbrina roncador,Yellowfin croaker
+2525,Chaetodon falcifer,Scythemarked butterflyfish
+2526,Chaetodon humeralis,Threebanded butterflyfish
+2530,Pentaceros richardsoni,Pelagic armorhead
+2550,Pseudopriacanthus serrula,Popeye catalufa
+2560,Apogon guadalupensis,Guadalupe cardinalfish
+2575,Eucinostomus sp.,Pacific flagfin mojarra
+2576,Eucinostomus argenteus,Silver mojarra
+2585,Mulloidichthys dentatus,Mexican goatfish
+2590,Chaetodipterus zonatus,Pacific spadefish
+2593,Oligoplites saurus,Leatherjacket
+2594,Trachinotus rhodopus,Gafftopsail pampano
+2595,Trachinotus paitensis,Paloma pompano
+2596,Vomer declivifrons,Pacific moonfish
+2597,Uraspis secunda,Cottonmouth jack
+2598,Chloroscombrus orqueta,Pacific bumper
+2599,Caranx hippos,Crevalle jack
+2600,Caranx melampygus,Spotted jack
+2601,Caranx caballus,Green jack
+2602,Decapterus hypodus,Mexican scad
+2603,Naucrates ductor,Pilotfish
+2604,Nematistius pectoralis,Roosterfish
+2605,Seriola colburni,Pacific amberjack
+2606,Seriola doralis,Yellowtail
+2607,Trachurus symmetricus,Jack mackerel
+2608,Caranx lugubris,Black jack
+2609,Elagatis bipinnulata,Runner rainbow runner
+2610,Caulolatilus princeps,Ocean whitefish
+2612,Coryphaena hippurus,Dolphinfish
+2613,Taractichthys steindachneri,Bigscale pomfret
+2614,Brama japonica,Pacific pomfret
+2615,Pteraclis aesticola,Fanfish
+2616,Anisotremus davidsonii,Sargo
+2617,Xenistius californiensis,Salema
+2619,Calamus brachysomus,Pacific porgy
+2621,Medialuna californiensis,Halfmoon
+2623,Hermosilla azurea,Zebraperch
+2625,Girella nigricans,Opaleye
+2627,Chromis punctipinnis,Blacksmith
+2628,Hypsypops rubicundus,Garibaldi
+2631,Halichoeres semicinctus,Rock wrasse
+2632,Oxyjulis californica,Senorita
+2633,Semicossyphus pulcher,California sheephead
+2634,Assurger anzac,Razorback scabbardfish
+2635,Trichiurus nitens,Pacific cutlassfish
+2636,Lepidopus xantusi,Pacific scabbardfish
+2637,Luvarus imperialis,Louvar
+2641,Istiophorus platypterus,Sailfish
+2642,Makaira indica,Black marlin
+2643,Makaira nigricans,Blue marlin
+2644,Tetrapturus audax,Striped marlin
+2645,Tetrapturus angustirostris,Shortbill spearfish
+2648,Xiphias gladius,Swordfish
+2651,Gempylus serpens,Snake mackerel
+2652,Ruvettus pretiosus,Oilfish
+2657,Prionotus stephanophrys,Lumptail searobin
+2658,Bellator xenisma,Splitnose searobin
+2661,Hexagrammos decagrammus,Kelp greenling
+2662,Hexagrammos stelleri,Whitespotted greenling
+2663,Hexagrammos superciliosus,Rock greenling
+2664,Ophiodon elongatus,Lingcod
+2665,Oxylebius pictus,Painted greenling
+2666,Pleurogrammus monopterygius,Atka mackerel
+2668,Anoplopoma fimbria,Sablefish
+2669,Erilepis zonifer,Skilfish
+2671,Zaniolepis frenata,Shortspine combfish
+2672,Zaniolepis latipinnis,Longspine combfish
+2675,Ammodytes hexapterus,Pacific sandlance
+2676,Hypsoblennius gentilis,Bay blenny
+2677,Hypsoblennius gilberti,Rockpool blenny
+2678,Hypsoblennius jenkinsi,Mussel blenny
+2679,Anarrhichthys ocellatus,Wolf eel
+2691,Atherinops affinis,Topsmelt
+2692,Atherinopsis californiensis,Jacksmelt
+2693,Leuresthes sardina,Gulf grunion
+2694,Leuresthes tenuis,California grunion
+2711,Icichthys lockingtoni,Medusafish
+2712,Peprilus simillimus,Pacific butterfish
+2715,Tetragonurus cuvieri,Smalleye squaretail
+2720,Sphyraena argentea,California barracuda
+2725,Mugil cephalus,Striped mullet
+2740,Gibbonsia sp.,Kelpfish
+2749,Neoclinus sp.,Fringehead
+2750,Paraclinus integripinnis,Reef finspot
+2751,Chaenopsis alepidota,Orangethroat pikeblenny
+2752,Neoclinus stephensae,Yellowfin fringehead
+2753,Neoclinus uninotatus,Onespot fringehead
+2754,Neoclinus blanchardi,Sarcastic fringehead
+2755,Alloclinus holderi,Island kelpfish
+2756,Cryptotrema corallinum,Deepwater blenny
+2757,Heterostichus rostratus,Giant kelpfish
+2758,Gibbonsia metzi,Striped kelpfish
+2759,Gibbonsia elegans,Spotted kelpfish
+2760,Gibbonsia montereyensis,Crevice kelpfish
+2761,Gibbonsia erythra,Scarlet kelpfish
+2770,Delolepis gigantea,Giant wrymouth
+2771,Lyconectes aleutensis,Dwarf wrymouth
+2775,Cebidichthys violaceus,Monkeyface eel
+2790,Stichaeidae,Stichaeid fish family
+2799,Anoplarchus insignis,Slender cockscomb
+2800,Anoplarchus purpurescens,High cockscomb
+2801,Askoldia sp.,Sixspot prickleback
+2802,Xiphister atropurpureus,Black prickleback
+2803,Xiphister mucosus,Rock prickleback
+2804,Phytichthys chirus,Ribbon prickleback
+2805,Chirolophis nugator,Mosshead warbonnet
+2806,Poroclinus rothrocki,Whitebarred prickleback
+2807,Lumpenus sagitta,Snake prickleback
+2808,Plectobranchus evides,Bluebarred prickleback
+2809,Plagiogrammus hopkinsi,Crisscross prickleback
+2810,Stichaeopsis sp.,Masked prickleback
+2811,Chirolophis decoratus,Decorated warbonnet
+2812,Xiphister sp.,Prickleback
+2825,Ulvicola sanctaerosae,Kelp gunnel
+2826,Apodichthys flavidus,Penpoint gunnel
+2827,Xererpes fucorum,Rockweed gunnel
+2828,Pholis schultzi,Red gunnel
+2829,Pholis ornata,Saddleback
+2830,Pholis laeta,Crescent gunnel
+2831,Pholis clemensi,Longfin gunnel
+2850,Scytalina cerdale,Graveldiver
+2855,Zaprora silenus,Prowfish
+2860,Dormitator latifrons,Pacific fat sleeper
+2870,Tridentiger trigonocephalus,Chameleon goby
+2871,Coryphopterus nicholsii,Blackeye goby
+2872,Lythrypnus dalli,Bluebanded goby
+2873,Lythrypnus zebra,Zebra goby
+2874,Typhlogobius californiensis,Blind goby
+2875,Lethops connectens,Kelp goby
+2876,Eucyclogobius newberryi,Tidewater goby
+2877,Gobionellus longicaudus,Longtail goby
+2878,Gillichthys mirabilis,Longjaw mudsucker
+2879,Lepidogobius lepidus,Bay goby
+2880,Acanthogobius flavimanus,Yellowfin goby
+2881,Ilypnus gilberti,Cheekspot goby
+2882,Clevelandia ios,Arrow goby
+2883,Quietula y  cauda,Shadow Goby
+2901,Physiculus rastrelliger,Hundred fathom codling
+2902,Antimora microlepis,Finescale codling
+3000,Bothidae,Unidentified sanddab
+3001,Citharichthys sordidus,Pacific sanddab
+3002,Citharichthys stigmaeus,Speckled sanddab
+3003,Citharichthys xanthostigma,Longfin sanddab
+3004,Hippoglossina stomata,Bigmouth sole
+3005,Paralichthys californicus,California halibut
+3006,Xystreurys liolepis,Fantail sole
+3101,Atheresthes stomias,Arrowtooth flounder
+3102,Embassichthys bathybius,Deepsea sole
+3103,Eopsetta jordani,Petrale sole
+3104,Glyptocephalus zachirus,Rex sole
+3105,Hippoglossus stenolepis,Pacific halibut
+3106,Hypsopsetta guttulata,Diamond turbot
+3107,Isopsetta isolepis,Butter sole
+3108,Lepidopsetta bilineata,Rock sole
+3109,Lyopsetta exilis,Slender sole
+3110,Microstomus pacificus,Dover sole
+3111,Hippoglossoides elassodon,Flathead sole
+3112,Inopsetta ischyra,Hybrid sole
+3113,Reinhardtius hippoglossoides,Greenland halibut
+3120,Parophrys vetulus,English sole
+3121,Platichthys stellatus,Starry flounder
+3122,Pleuronichthys coenosus,C-O turbot
+3123,Pleuronichthys decurrens,Curlfin turbot
+3124,Pleuronichthys ritteri,Spotted turbot
+3125,Pleuronichthys verticalis,Hornyhead turbot
+3126,Psettichthys melanostictus,Sand sole
+3201,Symphurus atricauda,California tonguefish
+3210,Unidentified Flatfish,Unidentified Flatfish
+4000,Phtheirichthys lineatus,Slender suckerfish
+4001,Remora remora,Remora
+4002,Echeneis naucrates,Sharksucker
+4003,Remilegia australis,Whalesucker
+4004,Remorina albescens,White suckerfish
+4005,Rhombochirus osteochir,Hardfin marlinsucker
+4006,Remora brachyptera,Gray marlinsucker
+4011,Balistes polylepis,Finescale triggerfish
+4012,Melichthys niger,Black triggerfish
+4013,Xanthichthys mento,Redtail triggerfish
+4021,Mola mola,Common mola
+4022,Ranzania laevis,Slender mola
+4031,Porichthys myriaster,Specklefin midshipman
+4032,Porichthys notatus,Plainfin midshipman
+4040,Ostracion diaphanum,Spiny boxfish
+4051,Ronquilus jordani,Northern ronquil
+4052,Rathbunella alleni,Rough ronquil
+4053,Rathbunella hypoplecta,Smooth ronquil
+4060,Trichodon trichodon,Pacific sandfish
+4075,Lagocephalus lagocephalus,Oceanic puffer
+4076,Sphoeroides annulatus,Bullseye puffer
+4080,Kathetostoma averruncus,Smooth stargazer
+4100,Chilomycterus affinis,Pacific burrfish
+4101,Diodon hystrix,Spotted porcupinefish
+4103,Pholididae,Gunnel
+9999,Other,Unidentified Fish
